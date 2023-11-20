@@ -53,6 +53,11 @@ void GeneraCodigo::add() {
     fputs("ADD\n",salida);
 }
 
+void GeneraCodigo::sub() {
+    cout<<"SUB"<<endl;
+    fputs("SUB\n",salida);
+}
+
 void GeneraCodigo::mul() {
     cout<<"MUL"<<endl;
     fputs("MUL\n",salida);

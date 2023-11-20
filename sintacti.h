@@ -180,6 +180,7 @@ void Sintactico::mas_terminos(void)
     {
         termino();
         mas_terminos();
+        generador.sub();
     }
     else
         lexico.devuelveToken(token); // <vacio>

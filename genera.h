@@ -17,6 +17,7 @@ class GeneraCodigo {
     void store();
     void neg();
     void add();
+    void sub();
     void mul();
     void div();
     void mod();
